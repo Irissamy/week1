@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.layout-main {
+  width: 100%;
+  margin: 0 auto; }
+
+.layout-content {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+body {
+  font-family: SF Pro Text; }
+
+P,
+h1 {
+  margin: 0; }
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 56px; }
+  .header .author {
+    padding-bottom: 24px;
+    border-bottom: 2px solid black;
+    font-size: 80px;
+    font-weight: 400; }
+  .header .photo {
+    padding-top: 48px;
+    display: block;
+    width: 324px; }
+
+.profile {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+  .profile .profile-list {
+    list-style: none; }
+    .profile .profile-list__item {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px; }
+
+.education {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 72px; }
+  .education .education-list {
+    list-style-type: none; }
+    .education .education-list__item {
+      font-size: 24px;
+      font-weight: 400;
+      padding-bottom: 24px; }
+      .education .education-list__item:last-child {
+        padding-bottom: 0px; }
+
+.skill {
+  background-color: #415165;
+  padding: 24px 102px 52px; }
+  .skill .skill-title {
+    width: 1200px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white; }
+    .skill .skill-title__text {
+      font-size: 32px;
+      color: white;
+      margin-right: 16px; }
+    .skill .skill-title__txt {
+      font-size: 24px;
+      color: white; }
+  .skill .skill-list {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 24px;
+    border-left: 1px solid #96a9c4; }
+    .skill .skill-list__item {
+      font-size: 24px;
+      font-weight: 300;
+      color: white;
+      padding-bottom: 20px; }
+      .skill .skill-list__item:last-child {
+        padding-bottom: 0px; }
+
+.experience {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 76px; }
+  .experience .experience-list {
+    list-style: none;
+    padding-left: 24px;
+    margin-left: 24px;
+    border-left: 1px solid #96a9c4; }
+    .experience .experience-list__item {
+      padding-bottom: 32px; }
+      .experience .experience-list__item:last-child {
+        padding-bottom: 0px; }
+      .experience .experience-list__item .item-title {
+        font-size: 24px;
+        font-weight: 400; }
+      .experience .experience-list__item .item-img {
+        display: block;
+        margin: 8px 0px; }
+        .experience .experience-list__item .item-img.-icon2 {
+          width: 72px; }
+      .experience .experience-list__item .item-txt {
+        width: 60%;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px; }
+
+.title {
+  font-weight: 500;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid black; }
+  .title__text {
+    font-size: 32px;
+    margin-right: 16px; }
+  .title__txt {
+    font-size: 24px;
+    color: #a00404; }
+
+.footer {
+  background-color: #415165; }
+  .footer .footer-content {
+    width: 1200px;
+    margin: auto;
+    padding: 32px 0px 48px 0px; }
+    .footer .footer-content .footer-title {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 8px;
+      margin: auto;
+      border-bottom: 1px solid white; }
+      .footer .footer-content .footer-title__text {
+        font-size: 32px;
+        color: white;
+        margin-right: 16px; }
+      .footer .footer-content .footer-title__txt {
+        font-size: 24px;
+        color: white; }
+    .footer .footer-content .footer-list {
+      width: 100%;
+      padding: 32px 0px 20px 0px;
+      text-align: center; }
+      .footer .footer-content .footer-list__item {
+        font-size: 24px;
+        font-weight: 300;
+        color: white;
+        padding-bottom: 16px; }
+        .footer .footer-content .footer-list__item:last-child {
+          padding-bottom: 0px; }
+        .footer .footer-content .footer-list__item .item-link {
+          font-size: 24px;
+          font-weight: 300;
+          color: white;
+          text-decoration: none; }
+    .footer .footer-content .footer-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      text-align: center; }
+      .footer .footer-content .footer-icon__link {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-right: 16px;
+        overflow: hidden; }
+        .footer .footer-content .footer-icon__link .link-img {
+          width: 100%; }
+        .footer .footer-content .footer-icon__link::last-child {
+          margin-right: 0px; }
+
+/*# sourceMappingURL=all.css.map */
